@@ -47,7 +47,7 @@ export default function App() {
         <aside className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
           <div className="sidebar-header">
             <div className="sidebar-logo">
-              <span>🔐</span>
+              <img src="/logo.png" alt="Thresho Logo" className="app-logo" />
               <div>
                 <div className="sidebar-title">Threshold</div>
                 <div className="sidebar-subtitle">Wallet</div>
