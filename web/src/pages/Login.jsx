@@ -55,7 +55,9 @@ export default function Login({ onLogin }) {
     <div style={{ maxWidth: 420, margin: '10% auto', background: 'white', padding: 40, borderRadius: 8, boxShadow: 'var(--shadow-lg)' }}>
       <div style={{ textAlign: 'center', marginBottom: 32 }}>
         <h1 style={{ color: 'var(--primary-blue)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 12, fontSize: 28 }}>
-          <span>🔐</span>Threshold Wallet
+          <img src="/logo.png" alt="Thresho Logo" style={{ width: 200, height: 200, borderRadius: 8 }} />
+          
+        
         </h1>
         <p style={{ color: 'var(--secondary-text)', marginTop: 8 }}>
           {mode === 'login' ? 'Welcome back' : 'Create your account'}

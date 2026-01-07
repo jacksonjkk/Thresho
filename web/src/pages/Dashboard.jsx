@@ -68,7 +68,7 @@ export default function Dashboard() {
 
       {!pub ? (
         <div className="card" style={{ textAlign: 'center', padding: 48 }}>
-          <img src="/logo.png" alt="Thresho Logo" style={{ width: 150, height: 150, marginBottom: 16, borderRadius: 10 }} />
+          <img src="/logo.png" alt="Thresho Logo" style={{ width: 250, height: 250, marginBottom: 16, borderRadius: 10 }} />
           <h3>Connect Your Stellar Wallet</h3>
           <p style={{ color: 'var(--secondary-text)', marginTop: 8, marginBottom: 24 }}>
             Connect Freighter to view your balances, thresholds, and manage transactions
