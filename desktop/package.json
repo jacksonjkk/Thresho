@@ -1,0 +1,14 @@
+{
+  "name": "@thresho/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "cross-env VITE_DEV=true electron ."
+  },
+  "dependencies": {
+    "electron": "^30.0.0",
+    "cross-env": "^7.0.3"
+  }
+}
